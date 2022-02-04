@@ -1,0 +1,35 @@
+.button_container {
+  display: flex;
+}
+
+.button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: transparent;
+  color: black;
+  padding: 15px;
+  border: 1px solid #000046;
+}
+
+.button:hover {
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+  padding: 15px;
+  background: #000046;
+  border: 1px solid #000046;
+}
+
+.filter_block {
+  background: #fdfdff;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.filter_title {
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  border-bottom: 0.5px solid #eaeaea;
+}

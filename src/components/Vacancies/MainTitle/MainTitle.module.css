@@ -1,0 +1,105 @@
+.title_container {
+  position: relative;
+  padding: 40px 20px 30px;
+}
+@media (min-width: 768px) {
+  .title_container {
+    padding: 70px 100px 40px;
+  }
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+@media (min-width: 768px) {
+  .title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+.title_number {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0096c7;
+}
+
+@media (min-width: 768px) {
+  .title_number {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+.text_container {
+  display: block;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .text_container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #5b5b5b;
+  margin-right: 20px;
+}
+
+.border {
+  margin-top: 15px;
+  border-top: 1px solid #000046;
+  width: 170px;
+}
+
+.select_wrapper {
+  position: relative;
+  width: 150px;
+  margin: 20px 0;
+  border-radius: 3px;
+}
+
+select {
+  color: #0096c7;
+  width: 150px;
+  height: 28px;
+  padding: 0 20px 0 7px;
+  background: transparent;
+  border: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  background-image: url("../../../utils/svg/down-arrow.svg");
+  background-repeat: no-repeat;
+  border: 16px solid transparent;
+}
+
+.button {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  border: none;
+  background-color: transparent;
+  background: #f4f6fc;
+  border-radius: 8px;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .button {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.main_container_about {
+  display: flex;
+  padding: 0 20px;
+}
+
+@media (min-width: 768px){
+  .main_container_about{
+    padding: 0;
+  }
+}
+
+.about {
+  margin-right: 40px;
+  width: 100%;
+}
+
+
+
+.container{
+  width: 100%;
+}
